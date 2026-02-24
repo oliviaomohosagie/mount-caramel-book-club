@@ -7,99 +7,134 @@
   </head>
   <body>
     <!--Heading-->
-    <h1>Mount caramel book club</h1>
-    <img
-      src="https://i.ibb.co/PvS7kWtL/img.jpg"
-      alt="list of book"
-      width="300"
-    />
+    <header>
+      <h1>Mount caramel book club</h1>
+      <img
+        src="https://i.ibb.co/PvS7kWtL/img.jpg"
+        alt="list of book"
+        width="300"
+      />
+    </header>
 
     <!--Navigation-->
-    <ul>
-      <il><a href="index.html">Home</a></il>
-      <il
-        ><a
-          href="https://dyslexiafoundation.org/books-children-books/"
-          target="_blank"
-          >online Resources</a
-        ></il
-      >
-      <il><a href="#">Reading Groups</a></il>
-      <il><a href="#">Contact Us</a></il>
-    </ul>
+    <nav>
+      <ul>
+        <il><a href="index.html">Home</a></il>
+        <il
+          ><a
+            href="https://dyslexiafoundation.org/books-children-books/"
+            target="_blank"
+            >online Resources</a
+          ></il
+        >
+        <il><a href="#">Reading Groups</a></il>
+        <il><a href="#">Contact Us</a></il>
+      </ul>
+    </nav>
+
     <!--Intro-->
-    <h2>Welcome to Mount caramel book club</h2>
-    <p>
-      The Mount caramel book club is an online community of book readers in
-      Mount caramel school..
-    </p>
-    <!--content-1-->
-    <h2>Meet our teachers</h2>
-    <img src="https://i.ibb.co/PvS7kWtL/img.jpg" alt="Ms Emma" width="100" />
-    <h3>Ms. Emma</h3>
-    <p>
-      She teaches elementary school kids. She has a bachelor's degree in
-      elemantary education
-    </p>
-    <img
-      src="https://i.ibb.co/pj8NRFdc/teacher2.jpg"
-      alt="Ms Emma"
-      width="100"
-    />
-    <h3>Ms. Caroline</h3>
-    <p>
-      She teaches secondary school and high school kids. She has a master's
-      degree in arts..
-    </p>
-    <!--content-2-->
-    <h2>Book Review</h2>
-    <h3>Alice in wonderland</h3>
-    <strong>Amit: </strong
-    ><q>I loved reading this book. A must read for everyone.</q>
-    <p><strong>Sekhar: </strong><q>I really enjoyed this book</q></p>
-    <!--content-3(video section)-->
-    <h2>Related Videos</h2>
-    <video width="400" height="218" controls autoplay>
-      <source src="dog-video.mp4" type="video/mp4" />
-    </video>
-    <iframe
-      width="400"
-      height="216"
-      src="https://www.youtube.com/embed/wcWLKRXgjsw"
-      title="Youtube video played"
-    ></iframe>
-    <!--content-3(table)-->
-    <h2>Opening Timing</h2>
-    <table>
-      <tr>
-        <th>Monday</th>
-        <td>11am-3pm</td>
-      </tr>
-      <tr>
-        <th>Tuesday</th>
-        <td>11am-3pm</td>
-      </tr>
-      <tr>
-        <th>Wednesday</th>
-        <td>11am-3pm</td>
-      </tr>
-      <tr>
-        <th>Thursday</th>
-        <td>11am-3pm</td>
-      </tr>
-      <tr>
-        <th>Friday</th>
-        <td>11am-1pm</td>
-      </tr>
-      <tr>
-        <th>Saturday</th>
-        <td>11am-1pm</td>
-      </tr>
-      <tr>
-        <th>Sunday</th>
-        <td>Closed</td>
-      </tr>
-    </table>
+    <div id="intro">
+      <h2>Welcome to Mount caramel book club</h2>
+      <p>
+        The Mount caramel book club is an online community of book readers in
+        Mount caramel school..
+      </p>
+    </div>
+    <div id="main-section">
+      <!--content-1-->
+      <div class="main-section-content">
+        <h2>Meet our teachers</h2>
+        <div id="teachers">
+          <div class="teacher-info">
+            <div>
+              <img
+                src="https://i.ibb.co/PvS7kWtL/img.jpg"
+                alt="Ms Emma"
+                width="100"
+              />
+            </div>
+            <div>
+              <h3>Ms. Emma</h3>
+              <p>
+                She teaches elementary school kids. She has a bachelor's degree
+                in elemantary education
+              </p>
+            </div>
+          </div>
+          <div class="teacher-info">
+            <div>
+              <img
+                src="https://i.ibb.co/pj8NRFdc/teacher2.jpg"
+                alt="Ms Caroline"
+                width="100"
+              />
+            </div>
+            <div>
+              <h3>Ms. Caroline</h3>
+              <p>
+                She teaches secondary school and high school kids. She has a
+                master's degree in arts..
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--content-2-->
+      <div id="book-reviews" class="main-section-content">
+        <h2>Book Review</h2>
+        <h3>Alice in wonderland</h3>
+        <strong>Amit: </strong
+        ><q>I loved reading this book. A must read for everyone.</q>
+        <p><strong>Sekhar: </strong><q>I really enjoyed this book</q></p>
+      </div>
+
+      <!--content-3(video section)-->
+      <div id="videos" class="main-section-content">
+        <h2>Related Videos</h2>
+        <video width="400" height="218" controls autoplay>
+          <source src="dog-video.mp4" type="video/mp4" />
+        </video>
+        <iframe
+          width="400"
+          height="216"
+          src="https://www.youtube.com/embed/wcWLKRXgjsw"
+          title="Youtube video played"
+        ></iframe>
+      </div>
+
+      <!--content-3(table)-->
+      <h2>Opening Timing</h2>
+      <table>
+        <tr>
+          <th>Monday</th>
+          <td>11am-3pm</td>
+        </tr>
+        <tr>
+          <th>Tuesday</th>
+          <td>11am-3pm</td>
+        </tr>
+        <tr>
+          <th>Wednesday</th>
+          <td>11am-3pm</td>
+        </tr>
+        <tr>
+          <th>Thursday</th>
+          <td>11am-3pm</td>
+        </tr>
+        <tr>
+          <th>Friday</th>
+          <td>11am-1pm</td>
+        </tr>
+        <tr>
+          <th>Saturday</th>
+          <td>11am-1pm</td>
+        </tr>
+        <tr>
+          <th>Sunday</th>
+          <td>Closed</td>
+        </tr>
+      </table>
+    </div>
     <!--Bestseller Section-->
     <h2>Best Seller</h2>
     <em>The Woman in the window: </em> by <em>A.J.Finn</em><br />
